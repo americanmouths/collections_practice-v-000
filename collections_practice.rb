@@ -39,6 +39,7 @@ end
 
 def add_s(array)
   array.each_with_index.collect do |element, index|
-    element[0] && element[2] && element[3] && element[4] << "s"
+    element[0] << "s"
+    element [2..array-1] << "s"
   end
 end
