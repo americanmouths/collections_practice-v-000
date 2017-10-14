@@ -20,3 +20,8 @@ end
 def reverse_array(array)
   array.reverse
 end
+
+def kesha_maker(array)
+  (0..array.size).step(3).to_a
+  (0..array.size).step(3) { |n| str[n] = "$"}
+end
