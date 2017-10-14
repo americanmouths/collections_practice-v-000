@@ -13,7 +13,7 @@ end
 end
 
 def swap_elements (array)
-  array.sort do |a, b|
+  array.sort do |a|
     a[1] < a[2]
   end
 end
