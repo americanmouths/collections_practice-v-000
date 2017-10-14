@@ -28,8 +28,7 @@ end
 end
 
 def find_a(array)
-  new_array = []
-  array.start_with?("a") do |x|
-    new_array << x
+  array.select do |a|
+    a.starts_with?("a")
   end
 end
