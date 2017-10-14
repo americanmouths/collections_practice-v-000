@@ -26,3 +26,10 @@ def kesha_maker(array)
     x[2] = "$"
 end
 end
+
+def find_a(array)
+  new_array = []
+  array.start_with?("a") do |x|
+    new_array << x
+  end
+end
